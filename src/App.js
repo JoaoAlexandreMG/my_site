@@ -24,9 +24,7 @@ function App() {
                 </div>
                 <div className="links">
                     <a href="#" className={currentPage === 'home' ? 'active' : ''} onClick={() => setCurrentPage('home')}>Sobre</a>
-                    <a href="#" className={currentPage === 'portfolio' ? 'active' : ''} onClick={() => setCurrentPage('portfolio')}>Portfólio</a>
-                    <a href="#">Contato</a>
-                </div>
+                    <a href="#" className={currentPage === 'portfolio' ? 'active' : ''} onClick={() => setCurrentPage('portfolio')}>Portfólio</a>                </div>
             </nav>
             {renderPage()}
         </div>
