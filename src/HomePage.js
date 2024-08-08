@@ -80,9 +80,9 @@ function HomePage() {
 
             <footer>
                 <div className="socials">
-                    <a href="https://github.com/JoaoAlexandreMG">Github</a>
-                    <a href="https://www.instagram.com/joaoa_sa/">Instagram</a>
-                    <a href="https://www.linkedin.com/in/joaosa2004/">LinkedIn</a>
+                    <a target='_blank' href="https://github.com/JoaoAlexandreMG" rel="noreferrer">Github</a>
+                    <a target='_blank' href="https://www.instagram.com/joaoa_sa/" rel="noreferrer">Instagram</a>
+                    <a target='_blank' href="https://www.linkedin.com/in/joaosa2004/" rel="noreferrer">LinkedIn</a>
                 </div>
                 <a className="online"><i className="fas fa-circle"></i> Disponível para trabalho</a>
             </footer>
