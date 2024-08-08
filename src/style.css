@@ -395,7 +395,7 @@ footer .socials a {
     animation: fadeInOut 2s ease-in-out forwards;
 }
 
-.portfolio {
+.projects_all {
     padding: 60px 42px;
     background: #18181B;
     border: 1px solid #27272A;
@@ -403,7 +403,7 @@ footer .socials a {
     border-radius: 14px;
 }
 
-.portfolio h1 {
+.projects_all h1 {
     color: #fff;
     font-size: 36px;
     margin-bottom: 40px;

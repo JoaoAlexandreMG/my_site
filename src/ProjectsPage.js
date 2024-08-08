@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
-function PortfolioPage() {
+function ProjectsPage() {
     return (
         <div>
-            <div className="portfolio">
-                <h1>Portfólio de Projetos</h1>
+            <div className="projects_all">
+                <h1>Projetos</h1>
                 <div className="projects">
                     <h2>Projetos Fáceis</h2>
                     <div className="project-item">
@@ -41,7 +42,6 @@ function PortfolioPage() {
             </div>
 
             <footer>
-                <a href="#">Meu Portfólio</a>
                 <div className="socials">
                     <a href="https://github.com/JoaoAlexandreMG">Github</a>
                     <a href="https://www.instagram.com/joaoa_sa/">Instagram</a>
@@ -53,4 +53,4 @@ function PortfolioPage() {
     );
 }
 
-export default PortfolioPage;
+export default ProjectsPage;

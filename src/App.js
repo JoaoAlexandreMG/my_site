@@ -1,6 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import HomePage from './HomePage';
-import PortfolioPage from './PortfolioPage';
+import ProjectsPage from './ProjectsPage';
 
 function App() {
     const [currentPage, setCurrentPage] = useState('home');
@@ -9,8 +10,8 @@ function App() {
         switch (currentPage) {
             case 'home':
                 return <HomePage />;
-            case 'portfolio':
-                return <PortfolioPage />;
+            case 'projetos':
+                return <ProjectsPage />;
             default:
                 return <HomePage />;
         }
@@ -24,7 +25,7 @@ function App() {
                 </div>
                 <div className="links">
                     <a href="#" className={currentPage === 'home' ? 'active' : ''} onClick={() => setCurrentPage('home')}>Sobre</a>
-                    <a href="#" className={currentPage === 'portfolio' ? 'active' : ''} onClick={() => setCurrentPage('portfolio')}>Portfólio</a>                </div>
+                    <a href="#" className={currentPage === 'projetos' ? 'active' : ''} onClick={() => setCurrentPage('projetos')}>Projetos</a>                </div>
             </nav>
             {renderPage()}
         </div>

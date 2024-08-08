@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 function HomePage() {
@@ -31,7 +32,7 @@ function HomePage() {
             <div className="works">
                 <div className="right">
                     <div className="item">
-                        <a href="#">Descrição sobre mim</a>
+                        <a>Descrição sobre mim</a>
                         <p>
                             Entusiasta da tecnologia com conhecimento intermediário em Python
                             (incluindo Selenium, Flask, redes neurais e automação) e
@@ -39,7 +40,7 @@ function HomePage() {
                         </p>
                     </div>
                     <div className="item">
-                        <a href="#">Formação</a>
+                        <a>Formação</a>
                         <ul>
                             <li>
                                 Técnico em Automação Industrial - NÃO CONCLUÍDO
@@ -52,7 +53,7 @@ function HomePage() {
                         </ul>
                     </div>
                     <div className="item">
-                        <a href="#">Cursos Adicionais</a>
+                        <a>Cursos Adicionais</a>
                         <ul>
                             <li>
                                 Office completo - 120h
@@ -78,13 +79,12 @@ function HomePage() {
             </div>
 
             <footer>
-                <a href="#">Meu Portfólio</a>
                 <div className="socials">
                     <a href="https://github.com/JoaoAlexandreMG">Github</a>
                     <a href="https://www.instagram.com/joaoa_sa/">Instagram</a>
                     <a href="https://www.linkedin.com/in/joaosa2004/">LinkedIn</a>
                 </div>
-                <a className="online" href="#"><i className="fas fa-circle"></i> Disponível para trabalho</a>
+                <a className="online"><i className="fas fa-circle"></i> Disponível para trabalho</a>
             </footer>
         </div>
     );
