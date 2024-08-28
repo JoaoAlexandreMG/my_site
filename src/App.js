@@ -25,17 +25,19 @@ function App() {
         </div>
         <div className="links">
           <a
+            style={{ cursor: "pointer" }}
             className={currentPage === "home" ? "active" : ""}
             onClick={() => setCurrentPage("home")}
           >
             Sobre
           </a>
           <a
+            style={{ cursor: "pointer" }}
             className={currentPage === "projetos" ? "active" : ""}
             onClick={() => setCurrentPage("projetos")}
           >
             Projetos
-          </a>{" "}
+          </a>
         </div>
       </nav>
       {renderPage()}

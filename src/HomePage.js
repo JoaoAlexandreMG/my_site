@@ -37,9 +37,11 @@ function HomePage() {
           <div className="item">
             <a>Descrição sobre mim</a>
             <p>
-              Entusiasta da tecnologia com conhecimento intermediário em Python
-              (incluindo Selenium, Flask, redes neurais e automação) e
-              conhecimentos básicos em HTML5, CSS, JavaScript, C++, C e SQL.
+              Sou apaixonado por tecnologia, focado no desenvolvimento back-end
+              com Python e JavaScript. Gosto de criar sistemas eficientes e
+              escaláveis, explorando frameworks modernos e boas práticas de
+              programação. Sempre busco novos desafios para aprender e
+              contribuir com projetos que façam a diferença.
             </p>
           </div>
           <div className="item">
