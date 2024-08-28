@@ -103,7 +103,7 @@ function ProjectsPage() {
             LinkedIn
           </a>
         </div>
-        <a className="online" href="#">
+        <a className="online">
           <i className="fas fa-circle"></i> Disponível para trabalho
         </a>
       </footer>
