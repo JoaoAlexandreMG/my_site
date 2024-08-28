@@ -31,8 +31,17 @@ function ProjectsPage() {
               <h3>Sistema de Orçamento de Produtos com IA</h3>
               <p>
                 Sistema que, juntamente com um banco de dados, utiliza uma API
-                para intepretar o pedido e realizar o orçamento do que foi
-                digitado pelo usuário, entregando o orçamento formatado.
+                para interpretar o pedido e realizar o orçamento do que foi
+                digitado pelo usuário, entregando o orçamento formatado. Para
+                acessar clique{" "}
+                <a
+                  target="_blank"
+                  href="https://github.com/JoaoAlexandreMG/RafaelaCulinaria"
+                  rel="noreferrer"
+                >
+                  Aqui
+                </a>
+                .
               </p>
             </div>
           }
@@ -46,7 +55,15 @@ function ProjectsPage() {
                 Sistema que permite, por meio de um banco de dados, o cadastro
                 de usuários e produtos, além de permitir o empréstimo desses
                 itens para usuários diferentes, gerando um termo de empréstimo
-                automaticamente.
+                automaticamente. Para acessar clique{" "}
+                <a
+                  target="_blank"
+                  href="https://github.com/JoaoAlexandreMG/PET_INVENTARIO"
+                  rel="noreferrer"
+                >
+                  Aqui
+                </a>
+                .
               </p>
             </div>
           }
